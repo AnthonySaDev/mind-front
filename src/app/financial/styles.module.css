@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+}
+
+.containerWithBordes {
+    background-color: white;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 56px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    padding: 28px 16px;
+    cursor: pointer;
+}
+
+.card h3 {
+    display: flex;
+    align-items: center;
+
+    /* text */
+    color: var(--Azul-Principal, #0077BA);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+}
+
+.card h3 img {
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.card p {
+    margin-top: 24px;
+
+    /* text */
+    color: var(--Gray-3, #828282);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 18px */
+}

@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.cardGrid {
+    grid-gap: 60px 15px !important;
+    grid-template-columns: repeat(3, 1fr);
+}

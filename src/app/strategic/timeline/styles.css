@@ -1,0 +1,21 @@
+.slick-slider {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgb(184, 184, 184) !important;
+    opacity: 1 !important;
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+/* 
+.slick-slid div {
+    margin-right: 0px !important;
+
+} */
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 5px;}

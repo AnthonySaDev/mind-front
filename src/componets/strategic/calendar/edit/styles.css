@@ -1,0 +1,182 @@
+.editor {
+    margin-top: 10px;
+}
+
+.p-editor-content  {
+    margin-top: 10px !important;
+    border: none !important;
+    
+}
+
+.ql-toolbar, .ql-editor {
+    border: 1px solid #0077BA80 !important;
+    background-color: rgb(224 224 224 / 6%);
+    border-radius: 8px !important;
+    display: flex;
+}
+
+.ql-toolbar button:hover {
+    /* transform: scale(0.05) !important; */
+}
+
+.ql-picker-options {
+    background-color: rgba(255, 255, 255, 0.63);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    margin-top: 15px !important;
+    animation: 300ms A-ql-picker-options;
+    z-index: 9999999999;
+    transition: none !important;
+    
+}
+
+
+.ql-picker-options:hover {
+    transform: translateY(0) !important;
+}
+
+@keyframes A-ql-picker-options {
+    from { 
+        transform: scale(0.85) translateY(-10px);
+        opacity: 0;
+        z-index: 99999999;
+    }
+
+    to { 
+        transform: scale(1) translateY(0px);
+        opacity: 1;
+        z-index: 99999999;
+
+    }
+}
+
+.ql-image {
+    display: none !important;
+}
+ 
+.ql-tooltip {
+    /* display: fixed !important; */
+}
+
+
+
+
+
+
+.p-editor-toolbar > span > button {
+    transition: 300ms;
+} 
+
+.ql-formats:nth-child(2) > span {
+    /* transform: translateY(0) !important;
+    transition: 0 !important;
+    z-index: 999999999 !important; */
+} 
+
+.ql-formats:nth-child(2) > button:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+
+
+.ql-formats:nth-child(3) > span > span {
+    transition: 200ms;
+} 
+
+.ql-formats:nth-child(3) > button:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+.ql-formats:nth-child(3) > span > span:first-child:hover {
+    transform: translateY(-4px) scale(1.1) !important;
+}
+
+
+
+
+.ql-formats:nth-child(4) > span {
+    transition: 200ms;
+} 
+
+.ql-formats:nth-child(4) > button:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+.ql-formats:nth-child(4) > span:hover {
+    transform: translateY(-4px) scale(1.1) !important;
+}
+
+
+
+.ql-formats:nth-child(5) > span {
+    transition: 200ms;
+} 
+
+.ql-formats:nth-child(5) > button:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+.ql-formats:nth-child(5) > span:hover {
+    transform: translateY(-4px) scale(1.1) !important;
+}
+
+
+
+
+.ql-formats:nth-child(6) > span {
+    transition: 200ms;
+} 
+
+.ql-formats:nth-child(6) > button:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+.ql-formats:nth-child(6) > span:hover {
+    transform: translateY(-4px) scale(1.1) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* .p-editor-toolbar > span:nth-child(4) > span:hover {
+    transform: translateY(-5px) scale(1.1);
+} */
+
+
+
+
+
+
+.ql-picker-options {
+    z-index: 99999 !important;
+    transform: scale(1) !important;
+    display: flex;
+
+}
+
+
+
+
+.ql-picker {
+    position: relative;
+}
+
+.ql-picker-options {
+    position: fixed;
+    top: 0;
+}
+
+
+.ql-formats:first-child {
+    display: flex !important;
+}
+
+.ql-picker span {
+    width: 160px;
+}

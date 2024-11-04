@@ -1,0 +1,20 @@
+.button {
+    background-color: #0077BA;
+    border: none;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 8px;
+    height: fit-content;
+}
+
+.button img {
+    height: 100%;
+    margin-right: 4px;
+    width: 24px;
+    height: 24px;
+    
+}

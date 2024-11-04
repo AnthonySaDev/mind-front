@@ -1,0 +1,11 @@
+.rs-calendar-table-cell-content {
+    border: 1px solid red !important;
+    background-color: red !important;
+    /* background-color: red !important; */
+    /* display: flex !important;
+    justify-content: left !important; */
+}
+
+.rs-calendar-table-cell-day {
+    text-align: left !important;
+}

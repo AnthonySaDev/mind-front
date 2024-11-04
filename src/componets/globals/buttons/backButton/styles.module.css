@@ -1,0 +1,26 @@
+.button {
+    color:#0077BA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.096px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 34px;
+}
+
+.button:hover {
+    transform: translateX(-5px);
+}
+
+.button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}

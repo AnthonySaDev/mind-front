@@ -1,0 +1,137 @@
+.container {
+    
+}
+
+.row {
+    display: grid;
+    grid-column-gap: 60px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 48px;
+}
+
+.card {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+}
+
+.card img {
+    margin-right: 5px;
+}
+
+.card h2 {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:last-child p:first-child {
+}
+
+.card:last-child p:first-child span {
+    color: #0077BA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table {
+    width: 100%;
+    margin-top: 8px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.table thead tr {
+    border-radius: 20px;
+}
+
+.table thead th {
+    padding: 8px 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+    background: #0077BA;
+}
+
+.table thead th:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.table thead th:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
+
+.table tbody tr {
+    background: #F0F6FA;
+    margin-top: 16px;
+}
+
+.table tbody td {
+    padding: 8px 16px;
+    color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table tbody td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.table tbody td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+
+.accomplished thead th {
+    background: #00BA8D;
+}

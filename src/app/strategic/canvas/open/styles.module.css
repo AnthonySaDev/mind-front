@@ -1,0 +1,32 @@
+.canvasDescription input {
+    height: 100%;
+}
+
+.canvasDescription p, input {
+    margin-top: 0;
+    color:#828282;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.canvasDescription p {
+    margin-left: 5px;
+}
+
+.canvasDescription {
+    width: 100%;
+}
+
+.canvasDescription input {
+    margin-left: 5px;
+    border-bottom: 0.3px solid #d8d8d8;
+    box-sizing: border-box;
+    width: 100%;
+}

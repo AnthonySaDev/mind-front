@@ -1,0 +1,23 @@
+.inputAndLabel {
+    display: block;
+}
+
+.inputAndLabel label {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputAndLabel input {
+    width: 100%;
+    border-radius: 8px;
+    background: #e2f4ff9b;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}

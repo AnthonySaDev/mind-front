@@ -1,0 +1,14 @@
+.container h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    animation: 1000ms animation linear infinite;
+}
+
+@keyframes animation {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

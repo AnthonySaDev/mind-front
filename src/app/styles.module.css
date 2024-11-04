@@ -1,0 +1,13 @@
+.container, .app {
+    background-color: #F0F6FA;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+
+.app {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}

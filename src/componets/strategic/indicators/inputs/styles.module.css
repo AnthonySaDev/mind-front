@@ -1,0 +1,32 @@
+
+
+.inputGrup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputGrup label {
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+
+}
+
+.inputGrup input {
+    border-radius: 8px;
+    background: #F0F6FA;
+    height: 40px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+

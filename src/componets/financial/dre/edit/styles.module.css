@@ -1,0 +1,167 @@
+.container {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+.filterDate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head {
+    color: var(--Gray-3, #828282);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.head h3:first-child {
+    border-bottom: 2px solid var(--Azul-Principal, #0077BA);
+}   
+
+.inputsGrup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+}
+
+.form {
+    /* height: 734px; */
+}
+
+.buttonSave {
+    height: 50px;
+    transition: 300ms;
+}
+
+.buttonSave:disabled {
+    opacity: .5;
+}
+
+
+
+/* 
+.select {
+    color: var(--Gray-3, #828282);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    background-color: rgb(146, 146, 146, 0.1);
+    width: 300px !important;
+    border: none !important;
+} */
+
+
+
+
+
+
+
+
+.controllMode {
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+}
+
+.controllMode button {
+    position: relative;
+    height: 45px;
+    border: 1px solid #0077BA;
+    border-radius: 8px;
+    transition: 100ms;
+}
+
+.controllMode button span {
+    transition: 100ms;
+}
+
+.select {
+    background-color: rgb(0 108 169 / 35%);
+    color: #0077BA;
+}
+
+.select span {
+    font-size: 15px;
+}
+
+.select::after {
+    position: absolute;
+    content: "selecionado";
+    border-radius: 8px 0px 8px 0px;
+    right: 0;
+    bottom: 0;
+    background-color: #0077BA;
+    padding: 1px 15px;
+    color: white;
+    
+    font-family: Poppins;
+    font-family: 400 !important;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+.inputsGrup {
+    animation: AInputsGrup 500ms;
+}
+
+@keyframes AInputsGrup {
+    from { opacity: 0; transform: translateX(-10px); }
+    to { opacity: 1; transform: translateX(0px); }
+}
+
+
+
+
+
+
+
+
+.containerDate {
+    width: 170px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 10px;
+}
+
+
+.input {
+    
+}

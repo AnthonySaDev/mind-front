@@ -1,0 +1,143 @@
+.container {
+    width: 100%;
+}
+
+.result {
+    grid-template-columns: 1fr 1fr;
+}
+
+.head {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.head h3 {
+    color: var(--Gray-3, #828282);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* margin: 10px; */ 
+}
+
+.title {
+    color: var(--Gray-3, #828282);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* margin: 10px; */
+}
+
+.title span, .head span {
+    padding: 5px 20px;
+    box-sizing: border-box;
+
+    /* text */
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.row {
+    background-color: #FFF;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.row:first-child .inputAndLabel input {
+    background-color: #EBFCF8;
+}
+
+
+.row:nth-child(2) .inputAndLabel input {
+    background-color: white;
+    border: 1px solid #0077BA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.result_row {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-column-gap: 20px;
+    height: fit-content;
+    width: 100% !important;
+    padding: 16px;
+}
+
+.result_row .column {
+    margin: 0;
+    width: 100%;
+
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 70px auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    background: rgb(194, 194, 194, 0.1);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    color: var(--Gray-2, #888888);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.item:hover {
+    background: rgb(194, 194, 194, 0.2);
+    border: 1px solid #0077BA;
+}
+
+.item:first-child {
+    margin: 0;
+}
+
+.item span:nth-child(2) {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.is_input {
+    background: #61c2ff20;
+}
+
+.divider {
+    border: 1px solid #88888820;
+    margin-top: 10px;
+}

@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    height: 125px;
+    overflow: scroll !important;
+    overflow-x: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    cursor: grab;
+}
+
+.container {
+    margin: 20px 0 0 0;
+    padding: 0 5px 0 0;
+    box-sizing: border-box;
+}
+
+.container::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #0077BA;
+    height: 0px !important;
+    border-radius: 5px;
+}
+
+.item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    user-select: none;
+}
+
+.list_DayCard {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_DayCard {
+    display: flex;
+    justify-content: space-between;
+    background: #0077BA;
+    font-size: 12px;
+    font-family: Poppins;
+    line-height: 18px;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #F0F6FA;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 250ms;
+
+    animation: 250ms item_DayCard_Animation;
+}
+
+.item_DayCard:first-child {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+@keyframes item_DayCard_Animation {
+    from { 
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.item_DayCard p {
+    font-weight: 400;
+}
+
+.item_DayCard span {
+    font-weight: 500;
+}

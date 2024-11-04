@@ -1,0 +1,25 @@
+.controls {
+    max-width: 223px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 59;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifications, .profile {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    /* margin: 0 16px; */
+    width: 36px;
+    margin-left: 16px !important;
+}
+
+.notifications, .profile img {
+    margin-left: 3px;
+}

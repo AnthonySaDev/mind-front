@@ -1,0 +1,35 @@
+.container {
+    margin: 30px 0;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 119, 186, 0.20);
+}
+
+.container h1 {
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    margin-top: 8px;
+    color:#828282;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+    display: flex;
+    align-items: center;
+} 
+
+.container p img {
+    margin-right: 8px;
+}

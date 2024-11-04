@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    /* background-color: red; */
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+
+.container::-webkit-scrollbar {
+    width: 20px;
+    height: 0px;
+    border: 1.5px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #0077BA;
+    height: 0px !important;
+    border-radius: 5px;
+}

@@ -1,0 +1,127 @@
+
+
+
+
+.select {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    
+    font-family: Inter;
+    font-weight: 400;
+    user-select: none;
+
+    
+}
+
+.select > span {
+    background-color: #0076ba;
+    color: white;
+    /* background-color: rgb(238, 238, 238); */
+    cursor: pointer;
+    
+    width: 100%;
+    border-radius: 5px;
+
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+
+    position: relative;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+    z-index: 999;
+}
+
+.lists {
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #ebebebe0;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    z-index: 99;
+    overflow-y: scroll;
+    height: 200px;
+    animation: 300ms A_lists;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+}   
+
+.lists::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+    border: 1.5px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+.lists::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #0076ba;
+    height: 0px !important;
+    border-radius: 5px;
+}
+
+@keyframes A_lists {
+    from { 
+        transform: scale(1) translateY(-50px); 
+        opacity: 0;
+    }
+    
+    to { 
+        transform: scale(1) translateY(0); 
+        opacity: 1;
+    }
+}
+
+
+
+
+.filters, .info {
+    color: var(--Gray-4, #BDBDBD);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.176px;
+}
+
+
+.lists > div {
+    display: block;
+
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.lists > div:hover {
+    background-color: #0076ba;
+}
+
+
+.item > span {
+    width: 100%;
+    font-size: 12px;
+    display: block;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+
+.item > span:hover {
+    /* transform: scale(1.2) !important; */
+    color: white;
+    margin-left: 10px;
+    /* padding-left: 22px; */
+}
+
+
+
+
+
+
+

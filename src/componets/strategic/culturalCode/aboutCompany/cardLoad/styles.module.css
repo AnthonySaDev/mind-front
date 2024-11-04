@@ -1,0 +1,75 @@
+.card {
+    background: linear-gradient(-45deg, #dfdfdf, #e8e8e8);
+	background-size: 400% 400%;
+	animation: gradientCard 200ms ease infinite;
+
+    opacity: 0.5;
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: 200ms;
+}
+
+@keyframes gradientCard {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.col h3 {
+    height: 10px;
+    width: 200px;
+    display: block;
+    border-radius: 8px;
+
+    background: linear-gradient(-45deg, #e8e8e8, #d1d1d1);
+	background-size: 400% 400%;
+	animation: gradient2 2s ease infinite;
+}
+
+.col p {
+    height: 10px;
+    width: 300px;
+    display: block;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    background: linear-gradient(-45deg, #e8e8e8, #d1d1d1);
+	background-size: 400% 400%;
+	animation: gradient2 2s ease infinite;
+}
+
+#openButton {
+    height: 32px;
+    width: 140px;
+    border-radius: 8px;
+    color: white;
+
+    background: linear-gradient(-45deg, #e8e8e8, #d1d1d1);
+	background-size: 400% 400%;
+	animation: gradient2 2s ease infinite;
+}
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

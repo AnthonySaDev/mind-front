@@ -1,0 +1,80 @@
+.gridCard {
+    display: grid;
+    grid-template-columns: repeat(4, 239px);
+    justify-content: space-between;
+    margin-top: 40px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.04);
+    width: 239px;
+    height: 114px;
+    box-sizing: border-box;
+    padding: 8px 8px 24px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    color: #0077BA;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.card h3 img {
+    margin-right: 8px;
+}
+
+.buttonInfos {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+
+.card p {
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.card p a {
+    color: #0077BA;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 18px */
+    display: flex;
+    align-items: center;
+}
+
+.card p img {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.card p span {
+    color: #828282;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 18px */
+    margin-left: 24px;
+}
